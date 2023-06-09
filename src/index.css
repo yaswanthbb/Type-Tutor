@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #282a36;
+}
+
+.heading{
+  font-family: 'Poppins';
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+}
+
+.typing-field {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lessons-container{
+  margin: 2rem 2rem;
+}
+.lessons-heading{
+  font-family: 'Poppins',sans-serif;
+  font-size: 1.4rem;
+  color:  #8be9fd;
+}
+.lessons-checkbox{
+  padding: 0.5rem;
+}
+.lessons-checkbox input{
+  margin-right: 0.7rem;
+}
+.lessons-checkbox label{
+  font-family: 'Poppins',sans-serif;
+  font-size: 1rem;
+  color: #ff79c6;
+}
+.typing-container {
+  width: 35rem;
+  margin-top: 1rem;
+  padding: 1.4rem 1rem;
+  border-radius: 0.2rem;
+  background: #44475a;
+}
+
+.typing-text {
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.text-display{
+  color: #f8f8f2;
+  font-family: 'Poppins',sans-serif;
+  margin-bottom: 1rem;
+}
+.text-display span{
+  margin: 5px;
+}
+.input-box {
+  background-color: #282a36;;
+  width: 100%;
+  color: white;
+  padding: 0.8rem 0.5rem;
+  border-radius: 0.2rem;
+  font-size: 1rem;
+}
+.lessons-count{
+  color:  #bd93f9;
+  font-family: 'Poppins',sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+.button{
+  text-align: center;
+  padding-top: 1rem;
+}
+.btn{
+  background-color: #34657f;
+  padding: 0.5rem 1rem;
+  color:#fff;
+  border: 0;
+  font-size: 0.9rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+.speed-container{
+  font-family: 'Poppins',sans-serif;
+  font-size: 0.8rem;
+  padding-top: 1.5rem;
+  color: #e16b06;
+  display: flex;
+  justify-content: space-around;
+}
+.speed-container span{
+  color: #5dcfb8;
+}
