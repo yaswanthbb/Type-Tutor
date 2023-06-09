@@ -7,7 +7,6 @@ const App = () => {
   const [inputValue, setInputValue] = useState("");
   const [isTextComplete, setIsTextComplete] = useState(false);
   const [startTime, setStartTime] = useState(null);
-  const [endTime, setEndTime] = useState(null);
   const [wpm, setWpm] = useState(0);
   const [accuracy, setAccuracy] = useState(0);
 
@@ -85,12 +84,10 @@ const App = () => {
 
       const currentTime = new Date().getTime();
       if (startTime) {
-        const elapsedTime = (currentTime - startTime) / 1000; // Calculate elapsed time in seconds
-        const wpm = Math.floor((inputValue.length / 5) / (elapsedTime / 60)); // Calculate WPM
-        // Update WPM and reset start and end time
+        const elapsedTime = (currentTime - startTime) / 1000;
+        const wpm = Math.floor((inputValue.length / 5) / (elapsedTime / 60));
         setWpm(wpm);
         setStartTime(null);
-        setEndTime(null);
       } else {
         setStartTime(currentTime);
       }
@@ -102,7 +99,6 @@ const App = () => {
     setWpm(0);
     setAccuracy(0);
     setStartTime(null);
-    setEndTime(null);
   };
 
   useEffect(() => {
@@ -128,7 +124,7 @@ const App = () => {
     }, 0);
     const accuracy = (correctCount / correctLetters.length) * 100;
     setAccuracy(accuracy.toFixed(2));
-  }, [inputValue]);
+  }, [inputValue, typingText]);
 
   return (
     <div className="App">
