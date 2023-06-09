@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Type Tutor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Type Tutor is a web application designed to help improve your typing skills. It provides lessons with random text that you can type out, and it measures your typing speed and accuracy. This project is built using React.
 
-## Available Scripts
+You can access the live version of the application here: [Type Tutor](https://type-tutor.netlify.app/)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Choose the number of lessons you want to complete: 2, 25, 50, 75, or 100.
+- See your progress with a visual representation of completed lessons out of the total lessons selected.
+- Practice typing with randomly generated text.
+- View the text to type, with correct letters shown in green and incorrect letters shown in red.
+- Input your typed text and receive real-time feedback on accuracy and typing speed.
+- Reset the typing field to start over.
+- Measure your typing speed in Words Per Minute (WPM).
+- Calculate your typing accuracy as a percentage.
+- Responsive design for optimal viewing on different devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- JavaScript
+- HTML
+- CSS
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy of the project up and running, follow these steps:
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/your-username/type-tutor.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navigate to the project directory:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+cd type-tutor
+```
 
-### `npm run eject`
+3. Install the dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Open your web browser and visit `http://localhost:3000` to see the application running.
 
-## Learn More
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. On the homepage, select the number of lessons you want to complete by checking one of the checkboxes: 2, 25, 50, 75, or 100. This determines the total number of lessons you will complete.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. The lessons count will show your progress as completed lessons out of the total lessons selected.
 
-### Code Splitting
+3. In the typing field, you will see a portion of randomly generated text to type. The correct letters are displayed in green, and incorrect letters are shown in red.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Start typing in the input box. Your typing speed and accuracy will be calculated and displayed in real-time.
 
-### Analyzing the Bundle Size
+5. Once you have typed the entire displayed text correctly, the lessons count will increase, and a new set of text will be generated for the next lesson.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+6. To reset the typing field and start over, click the "Reset" button.
 
-### Making a Progressive Web App
+7. The WPM (Words Per Minute) and accuracy percentage will be displayed below the typing field.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgements
 
-### Advanced Configuration
+This project was completed as part of the placement drive for the company [Chaabi](https://www.chaabi.co/home). I would like to express my gratitude to the team at Chaabi for providing me with this opportunity to showcase my skills and learn through this assessment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact
 
-### Deployment
+If you have any questions, suggestions, or feedback, please feel free to reach out to me at byaswanth2003@gmail.com.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using Type Tutor! Happy typing!
